@@ -1,15 +1,15 @@
 {
-  "name":        "svs/opendata-client",
+  "name": "ginkida/opendata-client",
   "description": "SVS/OpenData client library",
-  "license":     "MIT",
-  "autoload":    {
+  "license": "MIT",
+  "autoload": {
     "psr-4": {
       "Svs\\Client\\OpenData\\": "src/"
     }
   },
-  "require":     {
-    "php":               ">=7.3",
-    "ext-json":          "*",
+  "require": {
+    "php": ">=7.3",
+    "ext-json": "*",
     "guzzlehttp/guzzle": "^7"
   },
   "require-dev": {
